@@ -1,1 +1,24 @@
 @import "tailwindcss";
+
+
+/* Puedes añadir cualquier estilo global personalizado aquí */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Reglas CSS para la impresión, si es necesario */
+@media print {
+  /* Asegura que los colores de fondo e imágenes se impriman */
+  body {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}

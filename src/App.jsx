@@ -11,7 +11,7 @@ export default function App() {
     phone: "1234-5678",
     website: "@sitioincreible",
     address: "Calle Cualquiera 123, Cualquier Lugar.",
-    profileImage: "https://placehold.co/150x150/008080/FFFFFF?text=FS", // Placeholder o imagen real si se incluye
+    profileImage: "./image/imagen.jpg", // Placeholder o imagen real si se incluye
   };
 
   const profileSummary = "Con más de 5 años de experiencia en agencias de publicidad, soy un profesional de equipo, resolutivo y proactivo; apasionado por los nuevos retos y tendencias de interacción con el cliente.";
